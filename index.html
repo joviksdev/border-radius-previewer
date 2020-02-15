@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style/main.css">
+    <title>Border-radius Previewer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="text-header">
+            Border-radius Previewer
+        </h3>
+
+        <div class="item"></div>
+
+        <form class="form-control">
+            <div class="range-container">
+                <input type="range" min="0" max="100" class="range-controller" id="range-value">
+                <label for="range-value" class="range-value"></label>
+            </div>
+            <div class="custom-container">
+
+                <div class="custom">
+                    <div class="checkbox-container">
+                        <input type="checkbox" class="custom-btn">
+                        <div class="icon">
+                        </div>
+                    </div>
+                    <label for="custom">
+                        Customize Border-radius
+                    </label>
+                </div>
+                <div class="hide">
+                    <div class="error"></div>
+                    <label class="label" for="border-radius">
+                        Specify border radius
+                    </label>
+                    <div class="custom-item">
+                        <input type="text" class="border-radius-value"> px
+                        <p class="copy-text"></p>
+                        <input type="button" class="btn copy" value="Copy to Clipboard">
+                    </div>
+
+                    <input type="button" class="btn btn-preview" value="Preview">
+                </div>
+            </div>
+
+
+
+        </form>
+    </div>
+
+    <script src="/script/app.js"></script>
+</body>
+
+</html>
