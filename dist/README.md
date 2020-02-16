@@ -1,4 +1,4 @@
-# Border-box Radius Previewr
+# Border-box Radius Previewer
 ## Preview how CSS3 border-radius values affect an element
 [Border-radius-previewer](https://joviksdev.github.io/border-radius-previewer/) on GitHub Page.
 
